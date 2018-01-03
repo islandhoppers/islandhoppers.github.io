@@ -1767,6 +1767,7 @@
 
 	p {
 		margin: 0 0 2em 0;
+		letter-spacing: 0.1em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3760,7 +3761,7 @@
 
 		#footer .inner form {
 			margin: 0 3em 0 0;
-			width: calc(50% - 1.5em);
+			width: calc(100% - 1.5em);
 		}
 
 		#footer .inner .contact {
@@ -3887,7 +3888,7 @@
 
 	/* header */
 
-	.book {
+	.book, .partner {
 		text-decoration: none;
 		-moz-transition: background-color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out;
@@ -3896,6 +3897,10 @@
 		border-radius: 5px;
 		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
 		padding: 0 1.35em;
+	}
+
+	.partner {
+		box-shadow: none;
 	}
 
 	.flag {
